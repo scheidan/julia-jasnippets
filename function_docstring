@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: function with docstring
+# key: fd
+# group: definitions
+# --
+\"\"\"
+# Description
+
+${2:$(julia-args-to-docstring)}
+\"\"\"
+function ${1:name}($2)
+    $0
+end

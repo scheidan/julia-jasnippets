@@ -1,0 +1,7 @@
+# name: for ... in ...
+# key: for
+# group : control structure
+# --
+for ${i} in ${collection}
+    $0
+end
